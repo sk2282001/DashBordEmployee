@@ -1,0 +1,26 @@
+.employee-profile {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.employee-profile p {
+    font-size: 16px;
+    color: #999;
+}
+
+.employee-profile button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ff4757;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.employee-profile button:hover {
+    background-color: #e84118;
+}

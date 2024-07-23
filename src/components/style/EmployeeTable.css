@@ -1,0 +1,38 @@
+.employee-table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.employee-table th,
+.employee-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+    color: #e0e0e0;
+}
+
+.employee-table th {
+    background-color: #333;
+}
+
+.employee-table tr:nth-child(even) {
+    background-color: #2a2a2a;
+}
+
+.actions button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.actions button:hover {
+    background-color: #0056b3;
+}
